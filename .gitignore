@@ -1,0 +1,22 @@
+# ========================================== 
+# STM32CubeIDE / Eclipse Git Ignore Rules 
+# ========================================== # 
+Cartelle e file generati dalla compilazione 
+Debug/ 
+Release/ 
+*.elf 
+*.hex 
+*.bin 
+*.map 
+*.o 
+*.d 
+*.su 
+*.cyclo 
+# File di configurazione locale dell'IDE e del debugger 
+.settings/ 
+*.launch 
+*.log 
+.buildpath 
+# File temporanei di sistema operativo 
+.DS_Store 
+Thumbs.db
