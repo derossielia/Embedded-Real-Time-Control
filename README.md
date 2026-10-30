@@ -19,30 +19,6 @@ The course covers theoretical foundations and hands-on laboratory experiences on
 
 ---
 
-##  Repository Structure
-
-```
-.
-├── .gitignore                      # Excludes build outputs (Debug/, .elf, .hex) and IDE user settings
-├── README.md                       # Repository overview and documentation
-├── Lab00_GPIO_Interrupts/          # Lab 0: Basic GPIO driver, button input, LED toggling &amp; EXTI interrupts
-│   ├── Core/
-│   │   ├── Inc/                    # Header files (main.h, stm32f7xx_it.h)
-│   │   └── Src/                    # C source files (main.c, stm32f7xx_it.c)
-│   ├── Drivers/                    # STM32 HAL &amp; CMSIS drivers
-│   └── Lab00_GPIO_Interrupts.ioc   # CubeMX peripheral configuration
-├── Lab01_I2C_Keypad_LineSensor/    # Lab 1: I2C bus communication, SX1509 expanders, keypad &amp; timer sampling
-│   ├── Core/Inc/print_utils.h      # ITM_SendChar redirect for printf debug logs
-│   └── Core/Inc/SX1509_Utils.h     # SX1509 I2C register definitions &amp; initialization
-├── Lab02_Motor_Characterization/   # Lab 2: Open-loop motor control &amp; system response identification
-├── Lab03_ClosedLoop_PI_Control/    # Lab 3: Discrete-time PI motor speed controller
-├── Lab04_LineFollower_System/      # Lab 4: Integrated autonomous line follower robot
-└── Lab05_LineFollower_RTOS/        # Lab 5: Concurrent line follower using FreeRTOS tasks &amp; scheduling
-
-```
-
----
-
 ##  Lab Modules Overview
 
 ### **Lab 0: GPIOs and External Hardware Interrupts**
@@ -113,3 +89,6 @@ The course covers theoretical foundations and hands-on laboratory experiences on
 
 * **Academic Project:** Developed as part of the **Embedded Real-Time Control Systems (ERTC)** course at the **University of Padova (UNIPD)**.
 * **Hardware Architecture:** STMicroelectronics STM32F767ZI, TurtleBot mobile robotics platform designed by Dr. Riccardo Antonello.
+
+## Drive Folder for exercises' photos and videos
+https://drive.google.com/drive/folders/1DfuAJiqQswvWXqI-rjyS9S_6dmlQFmQW?usp=sharing

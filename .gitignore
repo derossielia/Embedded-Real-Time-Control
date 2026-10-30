@@ -16,6 +16,7 @@
 *.jpg
 *.jpeg
 *.gif
+*.heic
 
 # Exclude compressed archives
 *.zip
@@ -34,6 +35,7 @@
 Debug/
 Release/
 build/
+photos/
 
 # Exclude compiled binaries and object files
 *.o
